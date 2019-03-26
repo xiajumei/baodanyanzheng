@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title>过滤选择器·</title>
+	</head>
+	<body>
+		
+		<script type="text/javascript" src="js/jquery-3.3.1.min.js" ></script>
+		<script >
+		$(document).ready(function(){
+//				
+//			
+//			$(".uls").css("font-size","20px");
+//			$(".uls").css("background-color","yellow");
+//			$("ul li[title]").css("color","green");
+//			$("li:empty").html("没有内容");
+//			$("li:has(span)").css("color","orangered")
+
+//
+//$(":enabled").css("color","red");
+//$(":disabled").css("background-color","green");
+//alert($(":checked").val());
+//alert($(":Select").val());
+
+//第一题
+    //$("p").css("border","dashed 2px ");
+//第二题
+//  var $choose = $("#choose input");
+//           //全选
+//          $("#all").click(function(){
+//               $choose.each(function(){
+//                  $(this).prop("checked",true);
+//               });
+//           });
+//          //全不选
+//          $("#not").click(function(){
+//               $choose.prop("checked",false);
+//           });
+//           //反选
+//           $("#reverse").click(function(){
+//               $choose.each(function(){
+//                   $(this).prop("checked",!$(this).prop("checked"));
+//               });
+//           });
+// 第三题
+
+$("body input").css("background","wheat");
+$("input >.class1").css("background","green");
+$("form input").css("background","orangered");
+
+			})
+		</script>
+		
+		<!--<ul class="uls">
+			<li title="li1">夏洛特烦恼1</li>
+			<li title="li2">夏洛特烦恼2</li>
+			<li>夏洛特烦恼3</li>
+			<li><span>夏洛特烦恼4</span></li>
+			<li><span>夏洛特烦恼5</span></li>
+			<li></li>
+		</ul>-->
+		
+		<!--<input type="text" value="可用文本"  /><br>
+		<input type="text" value="不可用文本"  disabled="disabled" /><br>
+		<textarea disabled="disabled">不可用文本域</textarea>
+		<input type="checkbox" value="must" />必须勾选</br>
+		你现在工作的企业属于：
+		<input type="radio" value="外企" />
+		<input type="radio" value="国企" checked="checked"/>
+		<input type="radio" value="私企" />
+		
+		<select>
+			<option>足球</option>
+			<option>细毛球</option>
+			<option>蓝球</option>
+		</select>-->
+		
+	<!--	第一题-->
+	<!--<p><input type="checkbox" value="滑雪" >滑雪</p>
+	<p><input type="checkbox" value="游泳" >游泳</p>
+	<p><input type="checkbox" value="爬山" >爬山</p>	
+	
+	<p> <input type="button" value="选择"  ></p>-->
+	
+	<!--第二题-->
+     <!--<div id="choose">
+	<input type="checkbox" value="滑雪" >滑雪</p>
+	   <p><input type="checkbox" value="游泳" >游泳</p>
+	    <p><input type="checkbox" value="爬山" >爬山</p>	
+    </div>
+	
+	<div id="box-function">
+        <input id="all" type="button" value="全选" />
+         <input id="not" type="button" value="全不选" />
+         <input id="reverse" type="button" value="反选" />
+     </div>-->
+    <!-- 第三题-->
+    
+    姓名：<input type="text" name="none1"/></br>
+    通讯：<input type="email" /></br>
+   <form>
+   	<input  name="none2"/>
+   	<input  name="none3"/>
+   	<input  name="none4" class="class1"/>
+   	<input  name="none5"/>
+   	
+   </form>
+    
+	</body>
+</html>
